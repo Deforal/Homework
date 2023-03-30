@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  padding-top: 215px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(Img/top-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1024px;
+}
+.top_header {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  width: 50%;
+  padding-bottom: 32px;
+}
+.top_pargraph {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  width: 50%;
+  padding-bottom: 44px;
+}
+.top_button {
+  width: 234px;
+  height: 48px;
+  border-radius: 30px;
+  background: #9C0332;
+  border: none;
+  color: #FFFFFF;
+  transition: all 0.1s;
+}
+.top_button:active {
+  scale: 0.95;
+}
+
+.game_catalog {
+  display: flex;
+  gap: 32px;
+}
+.game_catalog_game1 {
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(Img/gm1.jpg);
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 380px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: end;
+  padding: 32px;
+  box-sizing: border-box;
+  transition: all 0.2s;
+}
+.game_catalog_game1:hover {
+  transform: scale3d(4, 0.7, 4) translateX(80px);
+}
+.game_catalog_game2 {
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(Img/gm2.jpg);
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 380px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: end;
+  padding: 32px;
+  box-sizing: border-box;
+  transition: all 0.1s;
+}
+.game_catalog_game2:hover {
+  transform: skew(60deg) translateY(-80px);
+}
+.game_catalog_game3 {
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(Img/gm3.jpg);
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 380px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: end;
+  padding: 32px;
+  box-sizing: border-box;
+  transition: all 0.5s;
+}
+.game_catalog_game3:hover {
+  transform: rotate(80deg) scale(1.5);
+}/*# sourceMappingURL=style.css.map */
