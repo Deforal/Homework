@@ -75,7 +75,7 @@ body {
   padding-bottom: 128px;
   background-color: #000915;
 }
-.game_catalog_game1 {
+.game_catalog_game {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
@@ -84,7 +84,6 @@ body {
   display: flex;
   align-items: center;
   color: #FFFFFF;
-  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(Img/gm1.jpg);
   border-radius: 16px;
   background-repeat: no-repeat;
   background-position: center;
@@ -98,58 +97,73 @@ body {
   box-sizing: border-box;
   transition: all 0.2s;
 }
-.game_catalog_game1:hover {
-  transform: scale(1.2);
+.game_catalog_game:hover {
+  border: 3px solid #44D2FF;
+  border-radius: 16px;
+}
+.game_catalog_game1 {
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(Img/gm1.jpg);
 }
 .game_catalog_game2 {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 32px;
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;
   background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(Img/gm2.jpg);
-  border-radius: 16px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 300px;
-  width: 380px;
-  color: #FFFFFF;
-  display: flex;
-  align-items: end;
-  padding: 32px;
-  box-sizing: border-box;
-  transition: all 0.2s;
-}
-.game_catalog_game2:hover {
-  transform: scale(1.2);
 }
 .game_catalog_game3 {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 32px;
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;
   background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(Img/gm3.jpg);
-  border-radius: 16px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 300px;
-  width: 380px;
-  color: #FFFFFF;
-  display: flex;
-  align-items: end;
-  padding: 32px;
-  box-sizing: border-box;
-  transition: all 0.2s;
 }
-.game_catalog_game3:hover {
-  transform: scale(1.2);
+
+@media (max-width: 1200px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .game_catalog {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 450px) {
+  .top {
+    align-items: center;
+    height: 735px;
+  }
+  .top .top_header {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    width: 100%;
+  }
+  .top .top_pargraph {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    width: 100%;
+  }
+}
+@media (max-width: 376px) {
+  .center {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .top {
+    align-items: center;
+    height: 735px;
+  }
+  .top .top_header {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    width: 100%;
+  }
+  .top .top_pargraph {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    width: 100%;
+  }
+  .game_catalog {
+    flex-direction: column;
+  }
+  .game_catalog_game {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
