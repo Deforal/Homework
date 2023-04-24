@@ -74,7 +74,7 @@ body {
     padding-top: 128px;
     padding-bottom: 128px;
     background-color: #000915;
-    &_game1 {   
+    &_game {
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 600;
@@ -83,7 +83,6 @@ body {
         display: flex;
         align-items: center;
         color: #FFFFFF;
-        background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(Img/gm1.jpg);
         border-radius: 16px;
         background-repeat: no-repeat;
         background-position: center;
@@ -99,63 +98,18 @@ body {
         &:hover {
             border: 3px solid #44D2FF;
             border-radius: 16px;
-        }
+        }    
+    }
+    &_game1 {   
+        background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(Img/gm1.jpg);
     }
 
     &_game2 {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 32px;
-        display: flex;
-        align-items: center;
-        color: #FFFFFF;
         background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(Img/gm2.jpg);
-        border-radius: 16px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        height: 300px;
-        width: 380px;
-        color: #FFFFFF;
-        display: flex;
-        align-items: end;
-        padding: 32px;
-        box-sizing: border-box;
-        transition: all 0.2s;
-        &:hover {
-            border: 3px solid #44D2FF;
-            border-radius: 16px;
-        }
     }
 
     &_game3 {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 32px;
-        display: flex;
-        align-items: center;
-        color: #FFFFFF;
         background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(Img/gm3.jpg);
-        border-radius: 16px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        height: 300px;
-        width: 380px;
-        color: #FFFFFF;
-        display: flex;
-        align-items: end;
-        padding: 32px;
-        box-sizing: border-box;
-        transition: all 0.2s;
-        &:hover {
-            border: 3px solid #44D2FF;
-            border-radius: 16px;
-        }
     }
 }
 @media (max-width: 1200px) {
@@ -209,13 +163,7 @@ body {
     }
     .game_catalog {
         flex-direction: column;
-        &_game1 {
-            width: 100%;
-        }
-        &_game2 {
-            width: 100%;
-        }
-        &_game3 {
+        &_game {
             width: 100%;
         }
     }
