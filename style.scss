@@ -112,6 +112,35 @@ body {
         background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(Imgs/gm3.jpg);
     }
 }
+
+.seasons__game_seaction {
+    background: #000915;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 135px;
+    height: 800px;
+}
+
+.seasons__side {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    & h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+    }
+    & p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+    }
+}
 @media (max-width: 1200px) {
     .center {
         padding-left: 16px;

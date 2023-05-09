@@ -18,13 +18,28 @@
             <button class="top_button">Поехали!</button>
         </header>
         <section class="game_catalog center">
-            <a href="../../JS-/js/2.5.js"><div class="game_catalog_game game_catalog_game1">Игра 1</div></a>
+            <a href=""><div class="game_catalog_game game_catalog_game1">Игра 1</div></a>
             <a href=""><div class="game_catalog_game game_catalog_game2">Игра 2</div></a>
             <a href=""><div class="game_catalog_game game_catalog_game3">Игра 3</div></a>
         </section>
     </div>
-    <section>
-        
+    <section class="seasons__game_seaction center">
+        <div class="seasons__side">
+            <h1>Времена года</h1>
+            <p>Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+            <button class="top_button" onclick="seasons()">Играть</button>
+        </div>
+        <img src="Imgs/seasonsG.svg" alt="">
     </section>
+    <section class="seasons__game_seaction center">
+        <img src="Imgs/wordsG.svg" alt="">
+        <div class="seasons__side">
+            <h1>Запомни слова</h1>
+            <p>При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+            <button class="top_button" onclick="words()">Играть</button>
+        </div>
+    </section>
+    <script src="js/words.js"></script>
+    <script src="js/seasons.js"></script>
 </body>
 </html>
