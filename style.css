@@ -111,7 +111,7 @@ body {
   background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(Imgs/gm3.jpg);
 }
 
-.seasons__game_seaction {
+.seasons__game_section {
   background: #000915;
   display: flex;
   justify-content: space-between;
@@ -149,6 +149,22 @@ body {
     flex-wrap: wrap;
     justify-content: center;
   }
+  .seasons__game_section {
+    flex-direction: column;
+    text-align: center;
+    gap: 64px;
+    padding-bottom: 85px;
+    padding-top: 51px;
+  }
+  .seasons__game_section img {
+    width: 100%;
+  }
+  .words__game_section {
+    flex-direction: column-reverse;
+  }
+  .seasons__side {
+    align-items: center;
+  }
 }
 @media (max-width: 767px) {
   .center {
@@ -174,6 +190,6 @@ body {
   }
   .game_catalog_game {
     height: 300px;
-    width: 343px;
+    width: 100% px;
   }
 }/*# sourceMappingURL=style.css.map */
