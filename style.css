@@ -189,7 +189,7 @@ body {
     width: 100%;
   }
   .game_catalog_game {
-    height: 300px;
-    width: 100% px;
+    background-size: cover;
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

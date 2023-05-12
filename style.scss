@@ -192,8 +192,8 @@ body {
     }
     .game_catalog {
         &_game {
-            height: 300px;
-            width: 100%px;
+            background-size: cover;
+            width: 100%;
         }
     }
 }
